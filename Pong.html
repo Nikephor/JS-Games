@@ -203,10 +203,10 @@ function moveEverything(){
 	
 //AI
 	if(paddle2Y < ballY - 35){
-		paddle2Y += 2.5;
+		paddle2Y += 4;
 	}else{
 	if(paddle2Y > ballY + 35){
-		paddle2Y -= 2.5;
+		paddle2Y -= 4;
 		}
 	}
 	
@@ -243,7 +243,11 @@ function drawEverything(){
 
 //Scoring system
 	canvasContext.fillStyle = "white";
+	
+	canvasContest.font="50px, Arial";
 	canvasContext.fillText(P1Score,100,100);
+	
+	canvasContest.font="50px, Arial";
 	canvasContext.fillText(P2Score,canvas.width - 100,100);
 
 //Net
