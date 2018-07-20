@@ -1,2 +1,2 @@
 # JS-Games
-The classic game Pong made in JS
+Classic games, made in JavaScript from scratch
