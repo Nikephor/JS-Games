@@ -1,2 +1,2 @@
-# JS-Games
-Classic games, made in JavaScript from scratch
+# HTML Canvas-Games
+Classic games, made in HTML Canvas with JavaScript from scratch
